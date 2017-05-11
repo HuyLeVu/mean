@@ -25,7 +25,7 @@
       })
       .state('customers.create', {
         url: '/create',
-        templateUrl: 'modules/customers/client/views/form-customer.client.view.html',
+        templateUrl: 'modules/customers/views/form-customer.client.view.html',
         controller: 'CustomersController',
         controllerAs: 'vm',
         resolve: {
